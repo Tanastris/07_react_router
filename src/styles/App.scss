@@ -1,0 +1,32 @@
+.logo h2 {
+  margin-bottom: 0;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+.active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.add-post-form {
+  input,
+  textarea {
+    padding: 4px 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 18px;
+  }
+  label {
+    margin-bottom: 20px;
+    display: block;
+    span {
+      font-weight: 500;
+      margin-bottom: 10px;
+      display: block;
+    }
+  }
+}
